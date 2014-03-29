@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 转载-On Designing and Deploying Internet-Scale Services(译)
+title: This is my fist test log
 categories: 转载
 tags: 服务设计
 ---
