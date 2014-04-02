@@ -1,0 +1,8 @@
+<div id="bm_comments"></div>
+<script type="text/javascript">
+    (function(){
+        var script = document.createElement('script'); script.type = "text/javascript";
+        script.src = "http://baye.me/script?key=c171086eba7a11e3aa9d123143053964";
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    })();
+</script>
