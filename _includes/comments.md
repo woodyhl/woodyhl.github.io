@@ -1,3 +1,7 @@
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="woody" data-title="article" data-url="woodyhl"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"woodyhl"};
 	(function() {
@@ -9,3 +13,4 @@ var duoshuoQuery = {short_name:"woodyhl"};
 		 || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
 	</script>
+<!-- 多说公共JS代码 end -->
