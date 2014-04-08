@@ -18,36 +18,31 @@
 <body>
     <div class="page-heading">
          <div class="page-brand">
-            <h1><a href="/">Woody</a></h1>
-                <!--h2>There is nothing you should know about me</h2-->
+            <h1><a href="/">WOODY</a></h1>
+            <!--h2>。。。。。。。。。。。。。。。。。。。。。</h2-->
          </div>
      </div>
-     <div class="page-navbar">
-             <div class="page-navbar-container">
-                 <ul class="page-nav">
-                     <li><a href="/">最新</a></li>
-                 </ul>
-             </div>
-             <div class="page-navbar-container">
-                 <ul class="page-nav">
-                     <li><a href="/categories.html">分类</a></li>
-                 </ul>
-             </div>
-             <div class="page-navbar-container">
-                 <ul class="page-nav">
-                     <li><a href="/about.html">关于我</a></li>
-                 </ul>
-             </div>
-     </div>
      <div class="page-container">
-     <div class="page-article">
-         {{ content }}
-     </div>
+        <div class="page-navbar">
+                <div class="page-navbar-container">
+                    <ul class="page-nav">
+                        <li><a href="/">最新</a></li>
+                        <li><a href="/categories.html">分类</a></li>
+                        <li><a href="/about.html">关于我</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="page-article">
+            {{ content }}
+            <br>
+            <br>
+            <br>
+        </div>
      </div>
      <div class="page-footer">
          <span>
              Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> 
-             | Hosted by <a href="http://github">Github.com</a> 
+             | Hosted by <a href="http://github">Github</a> 
              | UI Designed by <a href="/about.html">woodyhl</a> 
              | <span class="page-generator-time">{{site.time | date:"%Y-%m-%d %H:%M:%S"}} </span> 
          </span>

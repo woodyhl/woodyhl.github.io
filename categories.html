@@ -3,7 +3,7 @@ layout: page
 title: 文章分类
 ---
 
-<div class="page-categories">
+<!--div class="page-categories">
     <ul class="list-group">
     {% for cat in site.categories %}
     <li class="list-group-item">
@@ -12,7 +12,7 @@ title: 文章分类
     </li>
     {% endfor %}
     </ul>
-</div>
+</div-->
 
 <div class="page-blank">
 {% for cat in site.categories %}
@@ -21,7 +21,7 @@ title: 文章分类
         <ul>
             {% for post in cat[1] %}
             <li>
-                <span>{{ post.date | date:"%Y年%m月%d日" }} </span>
+                <span>{{ post.date | date:"%Y-%m-%d" }} </span>
                 <a href="{{ post.url }}">{{post.title}} </a>
             </li>
             {% endfor %}
