@@ -1,0 +1,320 @@
+/*
+ * application.less
+ * by @woodyhl
+ * haoleemail@gmail.com
+ */
+body {
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+  /* background: url("/static/img/blue.jpg") no-repeat fixed;*/
+  background-color: #383838
+  background-size:cover;
+}
+li.L4 {
+  list-style-type: none;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #eee;
+  box-shadow: 4px 4px 4px #888;
+  padding: 4px;
+  overflow: auto;
+}
+::selection {
+  background: #999999;
+  text-shadow: none;
+}
+h1,
+h2,
+h3 {
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+}
+.page-container {
+  max-width: 45%;
+  margin: 0 auto auto 40%;
+  background-color: #f7f7f7;
+}
+.page-heading {
+  /*border-top: 2px solid #bbb;*/
+  /*padding-bottom: 10px;*/
+  margin-top: 80px;
+  position: relative;
+  z-index: 9999;
+}
+.page-brand {
+  margin: 0 auto auto 40%;
+  display: block;
+}
+.page-brand h1 {
+  padding: 1.05em 0 0.1em;
+}
+.page-brand h1 a {
+  color: rgba(0,0,0,0.7);
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei", Consolas, Monaco, 'Courier New', Courier, 'Andale Mono', 'DejaVu Sans Mono', monospace !important;
+  line-height: 32px;
+  text-decoration: none;
+}
+.page-brand h2 {
+  color: #333;
+  font-size: 18px;
+  /*margin: 1em 0 1.25em;*/
+}
+.page-navbar {
+  margin: 0 auto 0 32%;
+  max-width: 8%;
+  min-width: 6%;
+  overflow: hidden;
+  /*background: transparent;*/
+  background-color: rgba(100,100,100,0.6);
+  position: fixed
+  /*opacity: 0.6;*/
+}
+.page-navbar .page-navbar-container {
+  margin: 0 0;
+}
+.page-navbar .page-navbar-container .page-nav {
+  font-size: 15px;
+  list-style: none;
+  margin: 0 0 0 0;
+  padding-left: 0;
+  font-background: rgba(100,100,100,0.6);
+}
+.page-navbar .page-navbar-container .page-nav li {
+  text-align: center;
+  float: center;
+  position: relative;
+}
+.page-navbar .page-navbar-container .page-nav a {
+  color: #fff;
+  display: block;
+  line-height: 2.5em;
+  padding: 0 1.25em;
+  text-decoration: none;
+}
+.page-navbar .page-navbar-container .page-nav a:hover,
+.page-navbar .page-navbar-container .page-nav a:focus {
+  color: #222;
+  background: #fff;
+}
+.page-article {
+  margin: 0px 7.5%;
+  width: auto;
+}
+.page-header {
+  margin: 0 0 1.5em;
+  padding: 1.5em 0 1.5em;
+  position: relative;
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+  border-bottom: 1px solid #bbb;
+}
+.page-header h2 {
+  font-weight: 500;
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+}
+.page-content {
+  border-bottom: 1px dashed #aaa;
+  margin: 0 0 1.5em;
+  padding: 1.5em 0 1.5em;
+  position: relative;
+}
+.page-content .post-heading {
+  color: #222;
+  text-decoration: none;
+  clear: both;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1.15em;
+  padding-bottom: .5em;
+  padding-top: 12px;
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+}
+.page-content .post-heading a {
+  color: #222;
+  text-decoration: none;
+}
+.page-content .post-meta {
+  color: #666;
+  clear: both;
+  font-size: 10px;
+  line-height: 18px;
+  /*border-bottom: 1px solid #d5d5d5;*/
+  padding: .5em, 0;
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+}
+.page-content .post-meta span {
+  margin-right: 4px;
+  padding: .5em 0;
+  /*vertical-align: middle;*/
+  font-color: #666;
+}
+.page-content .post-meta a {
+  font-weight: 500;
+  font-color: #666;
+}
+.page-content .post-entry {
+  padding: 1.5em 0 1.5em 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+.page-content .post-entry blockquote p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.page-content .post-footer {
+  clear: both;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 35px;
+}
+.page-footer {
+  /*border-top: 1px solid #ddd;*/
+  color: #999;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5em;
+  padding: 1.5em .5em;
+  text-align: center;
+  margin: 0 auto auto 40%;
+  max-width: 45%;
+  /*font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;*/
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+  position: bottom;
+}
+.page-footer a {
+  color: #eee;
+}
+.page-footer .page-generator-time {
+  padding: 0 3px;
+  font-size: 13px;
+  color: #999;
+  /*background-color: #999;*/
+}
+.page-list h3 {
+  color: #999;
+  font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
+}
+.page-list ul {
+  font-size: 15px;
+  list-style: square;
+  margin-bottom: 15px;
+}
+.page-list ul li {
+  margin: 4px;
+}
+.page-list ul li span {
+  color: #555;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.page-list ul li span:after {
+  content: "»";
+  margin: 0 10px;
+}
+.page-list ul li a {
+  color: #222;
+  padding: 2px;
+}
+.page-list ul li a:hover,
+.page-list ul li a:focus {
+  color: #333;
+  border-radius: 1px;
+}
+.page-blank {
+  margin: 1em 0 1.5em;
+  padding: 0 0 1.5em;
+  position: relative;
+}
+.read-more {
+  /*background: #d4dad8;*/
+  display: inline-block;
+  margin-top: 10px;
+  padding: .4em .8em;
+  text-decoration: none;
+  float: right;
+}
+.read-more a {
+  color: #666;
+  text-decoration: none;
+}
+.read-more:hover,
+.read-more:focus {
+  background: #999999;
+}
+.read-more:hover a,
+.read-more:focus a {
+  color: #fff;
+}
+.post-pager {
+  margin-bottom: 5px;
+  border-bottom: 1px dashed #aaa;
+}
+.pager {
+  list-style: none;
+}
+.pager li a {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #999999;
+  text-decoration: none;
+}
+.pager li a:hover,
+.pager li a:focus {
+  color: #fff;
+  background: #999999;
+}
+.page-pagination {
+  text-align: center;
+}
+.page-pagination .pagination li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999999;
+  text-decoration: none;
+}
+.page-pagination .pagination li span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background: transparent;
+}
+.page-pagination .pagination li a.active {
+  color: #999999;
+  text-decoration: underline;
+}
+.page-pagination .pagination li a:hover,
+.page-pagination .pagination li a:focus {
+  color: #fff;
+  background-color: #999999;
+}
+.page-tags {
+  margin: 15px 0 35px;
+  padding: 10px 0 25px;
+  border-bottom: 1px solid #aaa;
+}
+.page-tags a {
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.page-tags a span {
+  vertical-align: super;
+  font-size: 0.75em;
+}
+.page-tags a:hover,
+.page-tags a:focus {
+  color: #fff;
+}
+@media (max-width: 992px) {
+  .page-container {
+    margin: 0 auto;
+  }
+}
