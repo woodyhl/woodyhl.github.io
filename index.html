@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 最新文章
+title: Home
 ---
 
 {% for post in paginator.posts %}
@@ -11,22 +11,22 @@ title: 最新文章
     </div>
     <div class="post-meta">
         <span>
-            Time:
+            --- Time:
             <a href="{{ post.url }}">{{ post.date | date:"%Y-%m-%d" }}</a>
         </span>
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
-            Category:
+            --- Category:
             {% for cat in post.categories %}
             <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
             {% endfor %}
         </span>
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
-            Tag:
+            --- Tag:
             {% for tag in post.tags %}
             <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
-            {% endfor %}
+            {% endfor %}---
         <span>
     </div>
     <div class="post-entry">

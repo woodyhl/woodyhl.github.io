@@ -8,6 +8,7 @@ body {
   /* background: url("/static/img/blue.jpg") no-repeat fixed;*/
   /*background-color: #9cbe74;*/
   background-color: #acdab6;
+  /*background-color: rgb(199,237,204);*/
   background-size:cover;
 }
 li.L4 {
@@ -33,23 +34,34 @@ h3 {
   font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
 }
 .page-container {
-  max-width: 48%;
-  margin: 0 26% auto 26%;
+  /* max-width: 48%;
+  margin: 0 26% auto 26%; */
   /*background-color: #f7f7f7;*/
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  min-width: 500px;
   background-color: rgba(250,250,250,0.9);
+  position: relative;
 }
 .page-heading {
   /*border-top: 2px solid #bbb;*/
   /*padding-bottom: 10px;*/
+  float: center;
+  max-width: 600px;
+  min-width: 500px;
   margin-top: 80px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   z-index: 9999;
   font-weight: bold;
 }
 .page-brand {
-  max-width: 48%;
-  margin: 0 26% auto 26%;
+  /*max-width: 48%;
+  margin: 0 26% auto 26%;*/
   display: block;
   text-align: center;
 }
@@ -70,8 +82,8 @@ h3 {
   /*margin: 1em 0 1.25em;*/
 }
 .page-navbar {
-  margin: 0 0 0 0;
-  max-width: 100%;
+  margin: 0 auto 0 auto;
+  width: 100%;
 /*  min-width: 6%;*/
   overflow: hidden;
   /*background: transparent;*/
@@ -81,7 +93,7 @@ h3 {
   /*opacity: 0.6;*/
 }
 .page-navbar .page-navbar-container {
-  margin: 0 0;
+  margin: 0 auto 0 auto;
 }
 .page-navbar .page-navbar-container .page-nav {
   font-size: 14px;
@@ -95,6 +107,7 @@ h3 {
 /*  float: left;*/
   position: relative;
   display: Inline ;
+  text-align: center;
 }
 .page-navbar .page-navbar-container .page-nav a {
   color: #fff;
@@ -103,6 +116,7 @@ h3 {
   line-height: 2.0em;
   padding: 0 1.25em;
   text-decoration: none;
+  text-align: center;
 }
 .page-navbar .page-navbar-container .page-nav a:hover,
 .page-navbar .page-navbar-container .page-nav a:focus {
@@ -150,10 +164,10 @@ h3 {
 .page-content .post-meta {
   color: #666;
   clear: both;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   /*border-bottom: 1px solid #d5d5d5;*/
-  padding: .5em, 0;
+  /*padding: .5em, 0;*/
   font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
 }
 .page-content .post-meta span {
@@ -167,7 +181,7 @@ h3 {
   font-color: #666;
 }
 .page-content .post-entry {
-  padding: 1.5em 0 1.5em 0;
+  padding: 1.5em 0 1em 0;
   font-size: 14px;
   line-height: 22px;
 }
@@ -179,7 +193,7 @@ h3 {
   clear: both;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 .page-footer {
   /*border-top: 1px solid #ddd;*/
@@ -189,8 +203,13 @@ h3 {
   line-height: 1.5em;
   padding: 1.5em .5em;
   text-align: center;
-  margin: 0 26% auto 26%;
-  max-width: 48%;
+  float: center;
+  /*margin: 0 26% auto 26%;
+  max-width: 48%;*/
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  min-width: 500px;
   /*font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;*/
   font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
   position: bottom;
@@ -206,6 +225,7 @@ h3 {
 }
 .page-list h3 {
   color: #999;
+  font-size: 16px;
   font-family: Arial, "Microsoft YaHei", Consolas, MOnaco, 'Courier New', Courier, sans-serif;
 }
 .page-list ul {
@@ -242,7 +262,7 @@ h3 {
 .read-more {
   /*background: #d4dad8;*/
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 0;
   padding: .4em .8em;
   text-decoration: none;
   float: right;
